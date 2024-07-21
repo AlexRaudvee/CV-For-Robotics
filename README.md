@@ -1,7 +1,7 @@
 # Computer Vision For Robotics
 
 ### Repository Description
-
+![alt text](https://file%2B.vscode-resource.vscode-cdn.net/Users/alexraudvee/Desktop/TU_e/projects/CV-For-Robotics/assets/pic.webp?version%3D1721567751387)
 Welcome to the Computer Vision For Robotics repository! This project is sponsored by the Gaia Student Team and focuses on developing advanced computer vision (CV) solutions for robotics, specifically designed for trash collection tasks.
 
 ### Project Overview
