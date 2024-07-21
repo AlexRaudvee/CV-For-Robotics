@@ -18,6 +18,79 @@ Our team is dedicated to enhancing the capabilities of a four-wheel robot, engin
 - **Computer Vision Libraries:** OpenCV, Dlib
 - **Programming Languages:** Python
 
+### Files Description (dev)
+
+in the development stage
+
+### How to Run (dev)
+
+##### Prerequisites
+Before running the project, ensure you have the following prerequisites installed:
+
+- Python 3.9 or above
+- Git
+
+##### Installation Windows
+
+1. Clone the Repository:
+
+2. Create a Virtual Environment:
+
+```
+python -m venv venv
+```
+```
+venv\Scripts\activate
+```
+3. Install Dependencies:
+
+```
+pip install -r requirements.txt
+```
+4. Now you are ready to run the code in this repository
+
+##### Installation Linux
+
+1. Clone the Repository
+2. Create a Virtual Environment:
+
+```
+python3 -m venv venv
+```
+```
+source venv/bin/activate
+```
+3. Install Dependencies:
+
+```
+pip3 install -r requirements.txt
+```
+
+4. Now you are ready to run the code in this repository
+
+##### Installation macOS
+
+1. Clone the Repository
+
+2. Create a Virtual Environment:
+
+```
+python3 -m venv venv
+```
+```
+source venv/bin/activate
+```
+
+3. Install Dependencies:
+
+```
+pip3 install -r requirements.txt
+```
+
+4. Now you are ready to run the code from our repository
+
+
+
 ### Contributions
 We welcome contributions from the community! Whether you are a seasoned expert in computer vision or a student eager to learn, your input is valuable. Please check our CONTRIBUTING.md for guidelines on how to get started.
 
