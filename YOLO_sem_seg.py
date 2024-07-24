@@ -3,7 +3,7 @@ import random
 import cv2
 import numpy as np
 
-model = YOLO("models/yolov8m-seg.pt") # taken from here: https://docs.ultralytics.com/tasks/segment/#models
+model = YOLO("models/yolov8n-seg.pt") # taken from here: https://docs.ultralytics.com/tasks/segment/#models
 img = cv2.imread("assets/semantic_segmentation/in.jpg")
 
 # if you want all classes
