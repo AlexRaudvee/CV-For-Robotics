@@ -1,0 +1,1 @@
+# try out this way: https://medium.com/@Mert.A/how-to-use-yolov8-and-yolo-nas-for-object-detection-8c5893939480
