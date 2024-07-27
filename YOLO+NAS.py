@@ -9,5 +9,5 @@ device = 'cuda' if torch.cuda.is_available() else "cpu"
 
 model = models.get("yolo_nas_m", pretrained_weights="coco")
 
-img_path = "assets/semantic_segmentation/in.jpg"
+img_path = "assets/semantic_segmentation/trash_in.jpeg"
 model.predict(img_path, conf=0.25).show()

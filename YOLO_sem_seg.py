@@ -3,8 +3,8 @@ import random
 import cv2
 import numpy as np
 
-model = YOLO("models/yolov8n-seg.pt") # taken from here: https://docs.ultralytics.com/tasks/segment/#models
-img = cv2.imread("assets/semantic_segmentation/in.jpg")
+model = YOLO("models/yolov8m-seg.pt") # taken from here: https://docs.ultralytics.com/tasks/segment/#models
+img = cv2.imread("assets/semantic_segmentation/trash_in.jpeg")
 
 # if you want all classes
 yolo_classes = list(model.names.values())
@@ -25,4 +25,4 @@ for result in results:
 # cv2.imshow("Image", img)
 # cv2.waitKey(0)
 
-cv2.imwrite("assets/semantic_segmentation/out.jpg", img)
+cv2.imwrite("assets/semantic_segmentation/trash_out.jpeg", img)
