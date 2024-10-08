@@ -22,7 +22,7 @@ for result in results:
         color_number = classes_ids.index(int(box.cls[0]))
         cv2.fillPoly(img, points, colors[color_number])
 
-# cv2.imshow("Image", img)
+cv2.imshow("Image", img)
 cv2.waitKey(0)
 
 cv2.imwrite("assets/semantic_segmentation/trash_out.jpeg", img)
